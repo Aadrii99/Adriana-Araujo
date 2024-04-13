@@ -1,0 +1,92 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+color: black;
+padding-top: 70px;
+}
+
+nav{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background-color:white;
+box-shadow: rgb(13, 12, 12) rgba(160, 35, 35, 0.1);
+text-align: center;
+}
+
+.elementosmenu{ color: rgb(15, 16, 16);
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.elementosmenu:hover {
+    border-radius: 20px;
+    background-color: rgb(220, 216, 216);
+}
+
+header{ 
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section{
+    padding: 20px;
+    border: 1px solid #ddd
+    margin-bottom: 20px;
+}
+
+ #pacercademi ¨{
+    text-align: justify;
+ }
+
+ #habilidades ul {
+    list-style: none;
+    padding: 0;
+ }
+  #habilidades li {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+ }
+
+ #experiencia ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#experiencia ul li {
+
+margin-bottom: 10px;}
+
+#proyectos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#proyectos a{ 
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    color: #333;
+}
+
+#proyectos a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+
